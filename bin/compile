@@ -2,7 +2,7 @@
 ls /app/.heroku/python/bin/
 mkdir "/app/.heroku/python/bin/pw-browsers/"
 echo "[M-Install] 'python -m playwright install 16:54'"
-python -c 'exec("import os\os.environ[\"PLAYWRIGHT_BROWSERS_PATH\"]=\"/app/.heroku/python/bin/pw-browsers/\"\nos.system(\"python -m playwright install\")")'
+python -c 'exec("import os\nos.environ[\"PLAYWRIGHT_BROWSERS_PATH\"]=\"/app/.heroku/python/bin/pw-browsers/\"\nos.system(\"python -m playwright install\")")'
 
 set -e
 
