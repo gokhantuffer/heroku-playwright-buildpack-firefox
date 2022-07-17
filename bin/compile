@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+echo "[M-Install] 'python -m playwright install 16:21'"
+python print_me.py
 
 set -e
 
@@ -134,5 +136,3 @@ export_env_dir() {
 export_env_dir "$ENV_DIR" PLAYWRIGHT_BUILDPACK_BROWSERS
 install_system_deps
 configure_export_env
-echo "[M-Install] 'python -m playwright install 16:17'"
-playwright install
