@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-echo "[M-Install] 'python -m playwright install 16:21'"
-python /app/print_me.py
+ls /app
+echo "[M-Install] 'python -m playwright install 16:29'"
+python -c 'exec(\"import os\nos.system("python -m playwright install")'
 
 set -e
 
