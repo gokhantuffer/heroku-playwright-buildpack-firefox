@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo "[M-Install] 'python -m playwright install 16:21'"
-python print_me.py
+python /app/print_me.py
 
 set -e
 
