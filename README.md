@@ -10,5 +10,5 @@ heroku buildpacks:add --index 1 heroku/python
 
 now you can add this buildpack too
 ```txt
-heroku buildpacks:add https://github.com/gokhantuffer/heroku-playwright-buildpack-chromium.git -a my-app
+heroku buildpacks:add https://github.com/gokhantuffer/heroku-playwright-buildpack-firefox.git -a my-app
 ```
