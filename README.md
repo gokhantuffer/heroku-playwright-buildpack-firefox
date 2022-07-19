@@ -1,4 +1,4 @@
-# Heroku Playwright Buildpack Only Chromium for Python
+# Heroku Playwright Buildpack Only Firefox for Python
 
 This buildpack installs all the needed dependencies and Firefox browser and its driver to use Playwright ONLY Firefox on Heroku.
 
